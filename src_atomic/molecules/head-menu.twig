@@ -1,0 +1,9 @@
+
+
+<div class="head-menu">
+    {% for link in navigationLinks %}
+        <a class="head-menu__link-wrap" href="{{ link.src ~ '.html'}}">
+            {% include '../atoms/Input/button.twig', with {buttonText: link.name} %}
+        </a>
+    {% endfor %}
+</div>

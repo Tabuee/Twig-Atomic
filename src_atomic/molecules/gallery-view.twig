@@ -1,0 +1,8 @@
+<div class="gallery-view">
+    {% for image in galleryImages %}
+        {% set src = './' ~ image.path ~ image.fileName ~ '.' ~ image.type %}
+        <div class="">
+            {% include '../atoms/image.twig', with {imgSrc: src, imgClass: 'gallery__image'} %}
+        </div>
+    {% endfor %}
+</div>

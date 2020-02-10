@@ -1,0 +1,38 @@
+{% extends '../layout.twig' %}
+
+{% set componentName = 'button' %}
+
+{% block head_content %}
+    <link type="text/css" href="../base/spacings.css" rel="stylesheet" >
+    <style>
+        .testbox {
+            background-color: #8c1919;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+    {% set active = 2 %}
+{% endblock %}
+
+{% block live_component %}
+    <div class="section">
+        <div class="container">
+            <p>spacing small</p>
+            <div class="spacing-small-visualized"></div>
+            <p>spacing medium</p>
+            <div class="spacing-medium-visualized"></div>
+            <p>spacing big</p>
+            <div class="spacing-big-visualized"></div>
+        </div>
+    </div>
+
+
+{% endblock %}
+
+
+{% set scss %}{% include '../base/_spacing.scss' %}{% endset %}
+
+{% block documentation %}
+    <h1>scss</h1>
+    <pre><code class="scss">{{ scss | escape('html') }}</code></pre>
+{% endblock %}

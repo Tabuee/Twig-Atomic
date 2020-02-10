@@ -1,0 +1,6 @@
+{
+    "buttonText": "Abort",
+    "buttonSize": "text-box--state-small",
+    "buttonIcon": "x",
+    "state": "success"
+}

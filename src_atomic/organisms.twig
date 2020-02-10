@@ -1,0 +1,40 @@
+{% extends './layout.twig' %}
+
+
+{% block head %}
+<title>Docu - Organisms</title>
+{% endblock %}
+
+{% block content %}
+    <div class="box-grid">
+        <div class="box box-theme" data-click="true">
+            <div class="head-theme">Organisms</div>
+            <div class="content-theme">
+                <div class="section">
+                    <div class="head-theme">Organism: Register-Form</div>
+                    <div class="content-theme">
+                        {% include 'organisms/register-form.twig' %}
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="head-theme">Organism: Register-Form</div>
+                    <div class="content-theme">
+                        {% include 'organisms/newsletter-form.twig' %}
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="head-theme">Organism: Register-Form</div>
+                    <div class="content-theme">
+                        {% include 'organisms/header.twig' %}
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="head-theme">Organism: Register-Form</div>
+                    <div class="content-theme">
+                        {% include 'organisms/gallery-slider.twig', with {galleryImages: images} %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

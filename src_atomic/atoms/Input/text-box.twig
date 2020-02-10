@@ -1,0 +1,7 @@
+{% set json %}
+{% include "sizes.json" %}
+{% endset %}
+
+{% set sizeStates = json | jsonDecode %}
+
+<input id="{{ textBoxId|default('') }}" type="text" class="text-box {{sizeStates[sizeState] | default('')}}"  placeholder="{{ placeholderText | default('') }}">

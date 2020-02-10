@@ -1,0 +1,16 @@
+$spacing_map: (
+                      small: 10px,
+                      medium: 20px,
+                      big: 40px,
+                      none: 0
+              );
+
+@mixin spacing($top, $right, $bottom, $left) {
+  margin: map_get($spacing_map, $top) map_get($spacing_map, $right) map_get($spacing_map, $bottom) map_get($spacing_map, $left);
+}
+
+.test {
+  @include spacing('small', 'small', 'small', 'small');
+}
+
+

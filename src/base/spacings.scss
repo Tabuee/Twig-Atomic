@@ -1,0 +1,24 @@
+@import "colors";
+@import "typo";
+@import "spacing";
+
+
+.spacing-small-visualized {
+    @include spacing('none', 'none', 'big', 'none');
+    background-color: #00b89c;
+    width: 100%;
+    height: map_get($spacing_map, 'small');
+}
+
+.spacing-medium-visualized {
+    @include spacing('none', 'none', 'big', 'none');
+    background-color: #209cee;
+    width: 100%;
+    height: map_get($spacing_map, 'medium');
+}
+.spacing-big-visualized {
+    @include spacing('none', 'none', 'big', 'none');
+    background-color: #20bc56;
+    width: 100%;
+    height: map_get($spacing_map, 'big');
+}

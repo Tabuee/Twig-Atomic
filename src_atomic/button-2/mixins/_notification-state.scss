@@ -1,0 +1,6 @@
+@import '../../styles/global/mixins';
+
+@mixin notification-state($color) {
+    @include background-with-hover($color, darken($color, 25%));
+    border: 1px solid $color;
+}

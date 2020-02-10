@@ -1,0 +1,6 @@
+
+<div class="form-text-button-input">
+    {% include '../../atoms/Input/label.twig', with {labelReference: textBoxId, labelText: labelText} %}
+    {% include '../../atoms/Input/text-box.twig' with {textBoxId: textBoxId, placeholderText: labelText} %}
+    {% include '../../atoms/Input/button.twig', with {buttonText: buttonText} %}
+</div>

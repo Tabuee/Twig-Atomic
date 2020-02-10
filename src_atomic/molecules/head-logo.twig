@@ -1,0 +1,7 @@
+{% set image = images[0] %}
+
+<div class="head-logo">
+   <a href="#">
+        {% include '../atoms/image.twig', with {imgSrc: image.path ~ image.fileName ~ '.' ~ image.type, imgClass: 'image--head-logo'} %}
+   </a>
+</div>

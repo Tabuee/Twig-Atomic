@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0a907a25-9060-4249-ae16-70fb5629e2c5" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/principles.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/organisms/newsletter-form.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="50" column="36" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dist/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>menu</find>
+      <find>specialButtonSettings</find>
+      <find>atoms</find>
+      <find>atoms/Input</find>
+      <find>states</find>
+      <find>stateClassString</find>
+      <find>.io</find>
+      <find>background-image</find>
+      <find>../button/button</find>
+      <find>button/button</find>
+      <find>form-text-input</find>
+      <find>label</find>
+      <find>../molecules/form/form-text-input.twig</find>
+      <find>../organisms/newsletter-form</find>
+      <find>../molecules/form/form-text-input.</find>
+      <find>text</find>
+      <find>newsletter-form</find>
+      <find>toms\Input\</find>
+      <find>prettyHtml</find>
+      <find>{{ css | escape('html') }}</find>
+      <find>{{ css | escape('html') | leadingWhitespaces }}</find>
+      <find>{{ x | escape('html') | prettyHtml }}</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>../atoms</replace>
+      <replace>button</replace>
+      <replace>form-text-button-input</replace>
+      <replace>../organisms/newsletter-form</replace>
+      <replace>../organisms/newsletter-form.</replace>
+      <replace>register-form</replace>
+      <replace>../atoms/button/button</replace>
+      <replace>{{ css | prettyCSS | escape('html') }}</replace>
+      <replace>{{ x | prettyHtml | escape('html') }}</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>G:\dev\06_testSpace\patternLib\src\pages</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/scss/main.scss" />
+        <option value="$PROJECT_DIR$/src/knockout/KnockoutInitializer.ts" />
+        <option value="$PROJECT_DIR$/src/knockout/tsconfig.json" />
+        <option value="$PROJECT_DIR$/src/knockout/content/button/button.html" />
+        <option value="$PROJECT_DIR$/src/knockout/content/button/Button.ts" />
+        <option value="$PROJECT_DIR$/src/knockout/content/Component.ts" />
+        <option value="$PROJECT_DIR$/src/knockout/KnockoutComponent.ts" />
+        <option value="$PROJECT_DIR$/src/pages/page_1.html" />
+        <option value="$PROJECT_DIR$/src/pages/layout.twig" />
+        <option value="$PROJECT_DIR$/src/dist/page_1.html" />
+        <option value="$PROJECT_DIR$/src/pages/page_1.twig" />
+        <option value="$PROJECT_DIR$/src/button/button.scss" />
+        <option value="$PROJECT_DIR$/src/base/_typo.scss" />
+        <option value="$PROJECT_DIR$/src/base/_spacing.scss" />
+        <option value="$PROJECT_DIR$/src/pages/padmargins.twig" />
+        <option value="$PROJECT_DIR$/src/base/_grid.scss" />
+        <option value="$PROJECT_DIR$/src/base/spacings.scss" />
+        <option value="$PROJECT_DIR$/src/dist/button.html" />
+        <option value="$PROJECT_DIR$/src/knockout/main.ts" />
+        <option value="$PROJECT_DIR$/src/base/style.scss" />
+        <option value="$PROJECT_DIR$/src/button/button.twig" />
+        <option value="$PROJECT_DIR$/src/pages/fonts.twig" />
+        <option value="$PROJECT_DIR$/src/pages/spacings.twig" />
+        <option value="$PROJECT_DIR$/src/molecules/form/form-text-input.twig" />
+        <option value="$PROJECT_DIR$/src/molecules/form/form-text-button-input.twig" />
+        <option value="$PROJECT_DIR$/src/atoms/textBox/textBox.twig" />
+        <option value="$PROJECT_DIR$/src/organisms/register-form.twig" />
+        <option value="$PROJECT_DIR$/src/organisms/newsletter-form.twig" />
+        <option value="$PROJECT_DIR$/src/gulpfile.ts" />
+        <option value="$PROJECT_DIR$/src/pages/textBox.twig" />
+        <option value="$PROJECT_DIR$/src/pages/register-form.twig" />
+        <option value="$PROJECT_DIR$/src/pages/label.twig" />
+        <option value="$PROJECT_DIR$/src/pages/form-text-input.twig" />
+        <option value="$PROJECT_DIR$/src/pages/form-text-button-input.twig" />
+        <option value="$PROJECT_DIR$/src/gulpfile.js" />
+        <option value="$PROJECT_DIR$/src/pages/button.twig" />
+        <option value="$PROJECT_DIR$/src/pages/principles.twig" />
+        <option value="$PROJECT_DIR$/src/pages/index.twig" />
+        <option value="$PROJECT_DIR$/src/nav.twig" />
+        <option value="$PROJECT_DIR$/src/pages/newsletter-form.twig" />
+        <option value="$PROJECT_DIR$/src/layout.twig" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="rSYXAtDu" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1928" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="NBKnowledgePane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="patternLib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="patternLib" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../patternLibV2" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\dev\06_testSpace\patternLib\src\atoms\textBox" />
+      <recent name="G:\dev\06_testSpace\patternLib\src\atoms" />
+      <recent name="G:\dev\06_testSpace\patternLib\src" />
+      <recent name="G:\dev\06_testSpace\patternLib\src\knockout" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\dev\06_testSpace\patternLib\src" />
+      <recent name="G:\dev\06_testSpace\patternLib\src\pages" />
+      <recent name="G:\dev\06_testSpace\patternLib\src\organisms" />
+      <recent name="G:\dev\06_testSpace\patternLib\src\molecules\form" />
+      <recent name="G:\dev\06_testSpace\patternLib\src\atoms\label" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a907a25-9060-4249-ae16-70fb5629e2c5" name="Default" comment="" />
+      <created>1538785114896</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538785114896</updated>
+      <workItem from="1538785116355" duration="2557000" />
+      <workItem from="1538825993494" duration="36799000" />
+      <workItem from="1538872910220" duration="800000" />
+      <workItem from="1539201128470" duration="595000" />
+      <workItem from="1539283812278" duration="2629000" />
+      <workItem from="1539621080237" duration="1195000" />
+      <workItem from="1539721791146" duration="597000" />
+      <workItem from="1539795645472" duration="598000" />
+      <workItem from="1539813020597" duration="597000" />
+      <workItem from="1539849791099" duration="153000" />
+      <workItem from="1539851019972" duration="576000" />
+      <workItem from="1539885800707" duration="599000" />
+      <workItem from="1539898831313" duration="600000" />
+      <workItem from="1539900469245" duration="580000" />
+      <workItem from="1539986533050" duration="590000" />
+      <workItem from="1540064085317" duration="601000" />
+      <workItem from="1540140163400" duration="597000" />
+      <workItem from="1540246633914" duration="3000" />
+      <workItem from="1540687708374" duration="978000" />
+      <workItem from="1540719971374" duration="599000" />
+      <workItem from="1540738281494" duration="599000" />
+      <workItem from="1540839131027" duration="599000" />
+      <workItem from="1541104044927" duration="599000" />
+      <workItem from="1541118976686" duration="1235000" />
+      <workItem from="1541204737879" duration="599000" />
+      <workItem from="1541252417073" duration="1059000" />
+      <workItem from="1541460529164" duration="599000" />
+      <workItem from="1541801592000" duration="30000" />
+      <workItem from="1546358691924" duration="622000" />
+      <workItem from="1546640414609" duration="598000" />
+      <workItem from="1546688112174" duration="1198000" />
+      <workItem from="1546772590514" duration="1198000" />
+      <workItem from="1547348334442" duration="593000" />
+      <workItem from="1547376919430" duration="595000" />
+      <workItem from="1547502426512" duration="598000" />
+      <workItem from="1547583968759" duration="597000" />
+      <workItem from="1547672232704" duration="597000" />
+      <workItem from="1547839357510" duration="597000" />
+      <workItem from="1547908916713" duration="595000" />
+      <workItem from="1547982584362" duration="607000" />
+      <workItem from="1548011059953" duration="593000" />
+      <workItem from="1548095047839" duration="1782000" />
+      <workItem from="1548175521627" duration="598000" />
+      <workItem from="1548200401199" duration="595000" />
+      <workItem from="1553462549957" duration="734000" />
+      <workItem from="1553544850251" duration="594000" />
+      <workItem from="1553582836831" duration="596000" />
+      <workItem from="1553806475485" duration="600000" />
+      <workItem from="1570923490365" duration="121000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="72170000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1928" height="1048" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16151386" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32914045" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.06526316" />
+      <window_info anchor="bottom" id="SonarLint" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Tail" order="11" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="PlantUML" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Cargo" order="5" />
+      <window_info anchor="right" id="Mongo Explorer" order="6" />
+      <window_info anchor="right" id="Code Outline" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Notes" order="9" />
+      <window_info anchor="right" id="SciView" order="10" />
+      <window_info anchor="right" id="Database" order="11" />
+      <window_info anchor="right" id="Palette&#9;" order="12" />
+      <window_info anchor="right" id="Copy/Paste" order="13" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../../01_projects/tmp/simple-test.spec.js" />
+        <option value="$PROJECT_DIR$/../../01_projects/tmp/time.js" />
+        <option value="$PROJECT_DIR$/../../01_projects/tmp/grabTest.js" />
+        <option value="$PROJECT_DIR$/../../01_projects/tmp/inspector.js" />
+        <option value="$PROJECT_DIR$/../../01_projects/tmp/elementInspector/ElementInspector.js" />
+      </list>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/scss/main.scss" />
+    <entry file="file://$PROJECT_DIR$/src/dist/bulma.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2540">
+          <caret line="9670" column="7" selection-start-line="9670" selection-start-column="6" selection-end-line="9670" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulma-logo.png" />
+    <entry file="file://$PROJECT_DIR$/src/atoms/button/button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/atoms/button/button.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_atomic/atoms/Input/text-box.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/atoms/textBox/sizes.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_atomic/molecules.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="22" selection-start-line="22" selection-end-line="23" />
+          <caret line="16" selection-start-line="16" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/molecules/form/form-text-input.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_atomic/atoms.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-754">
+          <caret line="67" column="45" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/atoms/textBox/textBox.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/molecules/form/form-text-button-input.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gulpfile.ts" />
+    <entry file="file://$PROJECT_DIR$/src_atomic/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/textBox.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="65" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/spacings.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/label.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="65" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/fonts.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/form-text-button-input.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nav.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/organisms/register-form.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/form-text-input.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" column="65" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/newsletter-form.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2664">
+          <caret line="148" column="15" selection-start-line="148" selection-start-column="15" selection-end-line="148" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src_atomic/layout.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/register-form.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" column="65" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/knockout/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/button.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" selection-start-line="21" selection-end-line="31" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/developper.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/principles.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/organisms/newsletter-form.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="50" column="36" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dist/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

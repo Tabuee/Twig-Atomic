@@ -1,0 +1,47 @@
+<aside class="menu ">
+    <p class="menu-label">
+        foundation
+    </p>
+    <ul class="menu-list">
+        <li><a href="index.html"{{ (active == 11) ? ' class="is-active"' : '' }}>Changes</a></li>
+        <li><a href="principles.html"{{ (active == 10) ? ' class="is-active"' : '' }}>Principles</a></li>
+    </ul>
+    <p class="menu-label">
+        perceptual patterns
+    </p>
+    <ul class="menu-list">
+        <li><a href="fonts.html"{{ (active == 1) ? ' class="is-active"' : '' }}>fonts</a></li>
+        <li><a href="spacings.html"{{ (active == 2) ? ' class="is-active"' : '' }}>spacings</a></li>
+    </ul>
+    <p class="menu-label">
+        functional patterns
+    </p>
+
+    <ul class="menu-list">
+        <li>
+            <a>Atoms</a>
+            <ul>
+                <li><a href="button.html"{{ (active == 3) ? ' class="is-active"' : '' }}>Button</a></li>
+                <li><a href="label.html"{{ (active == 6) ? ' class="is-active"' : '' }}>Label</a></li>
+                <li><a href="textBox.html"{{ (active == 7) ? ' class="is-active"' : '' }}>Text Box</a></li>
+                <li><a>TODO</a></li>
+            </ul>
+        </li>
+        <li>
+            <a>Molecules</a>
+            <ul>
+                <li><a href="form-text-input.html"{{ (active == 4) ? ' class="is-active"' : '' }}>form-text-input</a></li>
+                <li><a href="form-text-button-input.html"{{ (active == 5) ? ' class="is-active"' : '' }}>form-text-button-input</a></li>
+                <li><a>TODO</a></li>
+            </ul>
+        </li>
+        <li>
+            <a>Organisms</a>
+            <ul>
+                <li><a href="newsletter-form.html"{{ (active == 8) ? ' class="is-active"' : '' }}>newsletter-form</a></li>
+                <li><a href="register-form.html"{{ (active == 9) ? ' class="is-active"' : '' }}>register-form</a></li>
+                <li><a>TODO</a></li>
+            </ul>
+        </li>
+    </ul>
+</aside>

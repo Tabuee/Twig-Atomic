@@ -1,0 +1,58 @@
+[
+    {
+        "name": "buildings",
+        "char": "\\e900"
+    },
+    {
+        "name": "cleaning",
+        "char": "\\e901"
+    },
+    {
+        "name": "gloves",
+        "char": "\\e902"
+    },
+    {
+        "name": "kitchen",
+        "char": "\\e903"
+    },
+    {
+        "name": "trash",
+        "char": "\\e904"
+    },
+    {
+        "name": "worker",
+        "char": "\\e905"
+    },
+    {
+        "name": "office",
+        "char": "\\e906"
+    },
+    {
+        "name": "droplet",
+        "char": "\\e90b"
+    },
+    {
+        "name": "phone",
+        "char": "\\e942"
+    },
+    {
+        "name": "envelop",
+        "char": "\\e945"
+    },
+    {
+        "name": "location2",
+        "char": "\\e948"
+    },
+    {
+        "name": "leaf",
+        "char": "\\e9a4"
+    },
+    {
+        "name": "man-woman",
+        "char": "\\e9de"
+    },
+    {
+        "name": "circle-up",
+        "char": "\\ea41"
+    }
+]

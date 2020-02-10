@@ -1,0 +1,67 @@
+.button, .menu__button, .sub-menu__button {
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: background-color 200ms ease-in; }
+
+.button.button--state-success,
+.menu__button.button--state-success,
+.sub-menu__button.button--state-success {
+  background-color: #61e26c;
+  border: 1px solid #61e26c; }
+  .button.button--state-success:hover,
+  .menu__button.button--state-success:hover,
+  .sub-menu__button.button--state-success:hover {
+    background-color: #26d035; }
+
+.button.button--state-warning,
+.menu__button.button--state-warning,
+.sub-menu__button.button--state-warning {
+  background-color: #e2e180;
+  border: 1px solid #e2e180; }
+  .button.button--state-warning:hover,
+  .menu__button.button--state-warning:hover,
+  .sub-menu__button.button--state-warning:hover {
+    background-color: #d4d242; }
+
+.button.button--state-failure,
+.menu__button.button--state-failure,
+.sub-menu__button.button--state-failure {
+  background-color: #e25c59;
+  border: 1px solid #e25c59; }
+  .button.button--state-failure:hover,
+  .menu__button.button--state-failure:hover,
+  .sub-menu__button.button--state-failure:hover {
+    background-color: #cb2723; }
+
+.button {
+  background-color: #27749b;
+  border: 1px solid #27749b;
+  color: #fff;
+  height: 50px;
+  padding: 15px;
+  width: 150px; }
+  .button:hover {
+    background-color: #18465e; }
+  .form-text-button-input .button {
+    margin: 5px;
+    width: 100%; }
+
+.menu__button {
+  background-color: #409fcf;
+  border: 0;
+  height: 25px;
+  padding: 5px;
+  width: 150px; }
+  .menu__button:hover {
+    background-color: #91c8e3; }
+
+.sub-menu__button {
+  background-color: #fff;
+  border: 0;
+  height: 25px;
+  padding: 2px;
+  width: 100px; }
+  .sub-menu__button:hover {
+    background-color: #03090c; }
+
+/*# sourceMappingURL=button.css.map */

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="Galen Suite" tests="1">
+        <testcase class="homepage.gspec" name="homepage.gspec"
+                  time="4.63" timestamp="2018-07-03T20:45:03Z">
+                <failure type="homepage.gspec" message="Layout errors">
+                </failure>
+        </testcase>
+    </testsuite>
+</testsuites>

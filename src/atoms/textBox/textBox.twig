@@ -1,0 +1,8 @@
+{% spaceless %}
+{% set sizeStates = {
+    "big": "text-box--state-big",
+    "medium": "text-box--state-medium",
+    "small": "text-box--state-small"
+} %}
+{% endspaceless %}
+<input id="{{ textBoxId|default('') }}" type="text" class="text-box {{sizeStates[sizeState] | default('')}}"  placeholder="{{ placeholderText | default('') }}">

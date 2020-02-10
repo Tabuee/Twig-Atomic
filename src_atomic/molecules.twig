@@ -1,0 +1,59 @@
+{% extends './layout.twig' %}
+
+
+
+{% block head %}
+<title>Docu - Molecules</title>
+{% endblock %}
+{% block content %}
+
+    <div class="box-grid">
+        <div class="box box-theme" data-click="true">
+            <div class="head-theme">Molecules</div>
+            <div class="content-theme">
+                <div class="section">
+                    <div class="head-theme">Molecule: Form-text-input</div>
+                    <div class="content-theme">
+                        {% include 'molecules/form/form-text-input.twig', with {buttonText: 'hit me', textBoxId: 'real-reference', labelText: 'some label'}%}
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="head-theme">Molecule: Form-text-input</div>
+                    <div class="content-theme">
+                        {% include 'molecules/form/form-text-button-input.twig', with {buttonText: 'hit me', textBoxId: 'real-reference', labelText: 'some label'}%}
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="head-theme">Molecule: head-menu</div>
+                    <div class="content-theme">
+                        {% include 'molecules/head-menu.twig' %}
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="head-theme">Molecule: head-logo</div>
+                    <div class="content-theme" style="height: 125px;">
+                        {% include 'molecules/head-logo.twig' %}
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="head-theme">Molecule: gallery-view</div>
+                    <div class="content-theme">
+                        {% include 'molecules/gallery-view.twig' with {galleryImages: images} %}
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="head-theme">Molecule: gallery-view</div>
+                    <div class="content-theme">
+                        {% include 'molecules/gallery-controls.twig'%}
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="head-theme">Molecule: gallery-indicator</div>
+                    <div class="content-theme">
+                        {% include 'molecules/gallery-indicator.twig' with {galleryImages: images} %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

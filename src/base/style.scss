@@ -1,0 +1,19 @@
+@import "colors";
+@import "typo";
+@import "spacing";
+@import "grid";
+
+* {
+    box-sizing: border-box;
+}
+
+.tt-page {
+    height:  100%;
+    margin:  0;
+    padding: 0;
+}
+
+.tt-page-content {
+    margin:     0 auto;
+    min-height: 100%;
+}

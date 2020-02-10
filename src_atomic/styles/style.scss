@@ -1,0 +1,45 @@
+@import "other/icons";
+@import "global/colors";
+//@import "atoms/button/button_5";
+@import "atoms/text-box";
+@import "atoms/label";
+@import "atoms/image";
+@import "molecules/form-text-input";
+@import "molecules/form-text-button-input";
+@import "molecules/head-menu";
+@import "molecules/gallery-view";
+@import "organisms/register-form";
+@import "organisms/newsletter-form";
+@import "organisms/header";
+
+body {
+    height:  100%;
+    margin:  0;
+    padding: 0;
+}
+
+.page-content {
+    margin:     0 auto;
+    min-height: 100%;
+}
+
+.head-theme {
+    background-color: lightskyblue;
+    color:            white;
+    font-size:        18px;
+    padding:          10px 25px;
+}
+
+.content-theme {
+    background-color: white;
+    padding:          25px;
+
+    &.page-content {
+        background-color: honeydew;
+    }
+}
+
+.section {
+    margin-bottom: 30px;
+}
+

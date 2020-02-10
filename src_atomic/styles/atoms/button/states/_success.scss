@@ -1,0 +1,6 @@
+@import '../../../global/colors';
+@import '../mixins/notification-state';
+
+%success {
+    @include notification-state($color-success);
+}

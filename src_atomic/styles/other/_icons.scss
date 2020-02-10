@@ -1,0 +1,119 @@
+$icomoon-font-path: "fonts" !default;
+
+$icon-buildings: \e900;
+$icon-cleaning: \e901;
+$icon-gloves: \e902;
+$icon-kitchen: \e903;
+$icon-trash: \e904;
+$icon-worker: \e905;
+$icon-office: \e906;
+$icon-droplet: \e90b;
+$icon-phone: \e942;
+$icon-envelop: \e945;
+$icon-location2: \e948;
+$icon-leaf: \e9a4;
+$icon-man-woman: \e9de;
+$icon-circle-up: \ea41;
+
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('#{$icomoon-font-path}/icomoon.eot?268m0l');
+    src:  url('#{$icomoon-font-path}/icomoon.eot?268m0l#iefix') format('embedded-opentype'),
+                 url('#{$icomoon-font-path}/icomoon.ttf?268m0l') format('truetype'),
+                 url('#{$icomoon-font-path}/icomoon.woff?268m0l') format('woff'),
+                 url('#{$icomoon-font-path}/icomoon.svg?268m0l#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@function unicode($str) {
+    @return unquote("\"") + $str + unquote("\"");
+}
+
+.icon-buildings {
+    &:before {
+        content: unicode($icon-buildings);
+    }
+}
+.icon-cleaning {
+    &:before {
+        content: unicode($icon-cleaning);
+    }
+}
+.icon-gloves {
+    &:before {
+        content: unicode($icon-gloves);
+    }
+}
+.icon-kitchen {
+    &:before {
+        content: unicode($icon-kitchen);
+    }
+}
+.icon-trash {
+    &:before {
+        content: unicode($icon-trash);
+    }
+}
+.icon-worker {
+    &:before {
+        content: unicode($icon-worker);
+    }
+}
+.icon-office {
+    &:before {
+        content: unicode($icon-office);
+    }
+}
+.icon-droplet {
+    &:before {
+        content: unicode($icon-droplet);
+    }
+}
+.icon-phone {
+    &:before {
+        content: unicode($icon-phone);
+    }
+}
+.icon-envelop {
+    &:before {
+        content: unicode($icon-envelop);
+    }
+}
+.icon-location2 {
+    &:before {
+        content: unicode($icon-location2);
+    }
+}
+.icon-leaf {
+    &:before {
+        content: unicode($icon-leaf);
+    }
+}
+.icon-man-woman {
+    &:before {
+        content: unicode($icon-man-woman);
+    }
+}
+.icon-circle-up {
+    &:before {
+        content: unicode($icon-circle-up);
+    }
+}
+

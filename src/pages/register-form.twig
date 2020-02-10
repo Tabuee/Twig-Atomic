@@ -1,0 +1,41 @@
+{% extends '../layout.twig' %}
+
+{% set componentName = 'button' %}
+
+{% block head_content %}
+    <link type="text/css" href="../organisms/register-form.css" rel="stylesheet" >
+    {% set active = 9 %}
+{% endblock %}
+
+{% block summary %}
+
+{% endblock %}
+
+{% block usage %}
+
+{% endblock %}
+
+{% block testRestults %}
+
+{% endblock %}
+
+
+{% block live_component %}
+    <h1>form-text-input</h1>
+    {% include '../organisms/register-form.twig', with {buttonText: 'hit me', textBoxId: 'real-reference', labelText: 'some label'} %}
+{% endblock %}
+
+{% set x %}{% include '../organisms/register-form.twig', with {buttonText: 'hit me', textBoxId: 'real-reference', labelText: 'some label'} %}{% endset %}
+
+{% set css %}{% include '../organisms/register-form.css' %}{% endset %}
+
+{% set scss %}{% include '../organisms/register-form.scss' %}{% endset %}
+
+{% block documentation %}
+    <h1>html</h1>
+    <pre><code class="html">{{ x | prettyHtml | escape('html') }}</code></pre>
+    <h1>scss</h1>
+    <pre><code class="scss">{{ scss | escape('html') | leadingWhitespaces }}</code></pre>
+    <h1>css</h1>
+    <pre><code class="css">{{ css | prettyCSS | escape('html') }}</code></pre>
+{% endblock %}

@@ -1,0 +1,8 @@
+
+@mixin background-with-hover($color-background, $color-hover) {
+    background-color: $color-background;
+
+    &:hover {
+        background-color: $color-hover;
+    }
+}

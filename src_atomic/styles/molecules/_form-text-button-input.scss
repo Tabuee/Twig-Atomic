@@ -1,0 +1,12 @@
+
+.form-text-button-input {
+    width:         300px;
+    box-sizing:    border-box;
+    padding:       5px;
+    margin-bottom: 5px;
+
+    .newsletter-form & {
+        width: 100%;
+    }
+
+}

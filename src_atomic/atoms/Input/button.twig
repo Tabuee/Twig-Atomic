@@ -1,0 +1,35 @@
+{% if buttonId is defined %}
+    {% set idString = ' id="' ~ buttonId ~ '"' %}
+{% endif %}
+
+{% if buttonIcon is defined %}
+    {% set iconClassString = ' icon-' ~ buttonIcon ~ '' %}
+{% endif %}
+
+{% if disabled == true %}
+ {% set disabledString = ' disabled' %}
+{% endif %}
+
+{% if states is defined %}
+    {% set stateClassString = ' ' %}
+
+    {% for state in states %}
+        {% set stateClassString = stateClassString ~ ' button--' ~ state %}
+    {% endfor %}
+{% endif %}
+
+
+
+{#
+api ref
+-------
+buttonId: string
+buttonIcon: string
+disabled: bool
+states: Array<string>
+
+#}
+
+<button{{ idString | default('') }} class="button{{stateClassString | default('')}}{{ iconClassString | default('') }}"{{disabledString}}>
+{{ buttonText }}
+</button>

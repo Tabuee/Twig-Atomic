@@ -1,0 +1,218 @@
+<html>
+<head>
+    <link type="text/css" href="./bulma.css" rel="stylesheet" >
+    <link type="text/css" href="./../base/style.css" rel="stylesheet" >
+
+    <link rel="stylesheet" href="./styles/monokai-sublime.css" >
+    <script src="./highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+    
+
+</head>
+
+<body>
+<nav class="navbar is-light" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+            <img src="logo.png" width="112" height="28" >
+        </a>
+    </div>
+</nav>
+<div class="section">
+    <div class="grid">
+        <div class="grid__item two-twelfths">
+            <aside class="menu ">
+    <p class="menu-label">
+        foundation
+    </p>
+    <ul class="menu-list">
+        <li><a href="index.html">Changes</a></li>
+        <li><a href="principles.html">Principles</a></li>
+    </ul>
+    <p class="menu-label">
+        perceptual patterns
+    </p>
+    <ul class="menu-list">
+        <li><a href="fonts.html" class="is-active">fonts</a></li>
+        <li><a href="spacings.html">spacings</a></li>
+    </ul>
+    <p class="menu-label">
+        functional patterns
+    </p>
+
+    <ul class="menu-list">
+        <li>
+            <a>Atoms</a>
+            <ul>
+                <li><a href="button.html">Button</a></li>
+                <li><a href="label.html">Label</a></li>
+                <li><a href="textBox.html">Text Box</a></li>
+                <li><a>TODO</a></li>
+            </ul>
+        </li>
+        <li>
+            <a>Molecules</a>
+            <ul>
+                <li><a href="form-text-input.html">form-text-input</a></li>
+                <li><a href="form-text-button-input.html">form-text-button-input</a></li>
+                <li><a>TODO</a></li>
+            </ul>
+        </li>
+        <li>
+            <a>Organisms</a>
+            <ul>
+                <li><a href="newsletter-form.html">newsletter-form</a></li>
+                <li><a href="register-form.html">register-form</a></li>
+                <li><a>TODO</a></li>
+            </ul>
+        </li>
+    </ul>
+</aside>
+
+
+        </div>
+        <div class="grid__item nine-twelfths">
+            <div class="container ko-root">
+                <div class="tabs is-centered is-boxed">
+                    <ul>
+                        <li class="is-active">
+                            <a class="tab-link" data-target="summary">
+                                <span class="icon is-small"><i class="fas fa-image" aria-hidden="true"></i></span>
+                                <span>Summary</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="tab-link" data-target="documentation">
+                                <span class="icon is-small"><i class="fas fa-music" aria-hidden="true"></i></span>
+                                <span>Documentation</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="tab-link" data-target="usage">
+                                <span class="icon is-small"><i class="fas fa-film" aria-hidden="true"></i></span>
+                                <span>Usage</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="tab-link" data-target="testResults">
+                                <span class="icon is-small"><i class="far fa-file-alt" aria-hidden="true"></i></span>
+                                <span>Test Results</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                
+                <div class="box" data-bind='component: "button"'></div>
+
+                <div class="tabs-container">
+                    <div class="tab-container summary">
+                        
+                        
+                    </div>
+                    <div class="tab-container documentation is-hidden">
+                        <div class="box">
+                            
+    <h1>scss</h1>
+    <pre><code class="scss">
+.tt-heading-small {
+  font-size:   12px;
+  font-weight: 600;
+}
+
+.tt-heading-normal {
+  font-size: 18px;
+}
+
+.tt-heading-big {
+  font-size: 26px;
+}
+</code></pre>
+
+                        </div>
+                    </div>
+                    <div class="tab-container usage is-hidden">
+                        
+                        
+                    </div>
+                    <div class="tab-container testResults is-hidden">
+                        
+                        
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./deliveryBundle.js"></script>
+
+<script>
+
+    (function (window, document) {
+        window.registerComponent({name: 'button', template: '    <div class="section">        <div class="container">            <h1 class="tt-heading-small">                small heading            </h1>            <h1 class="tt-heading-medium">                medium heading            </h1>            <h1 class="tt-heading-big">                big heading            </h1>        </div>    </div>'});
+
+        var tabLinks = document.querySelectorAll('.tab-link');
+        if (tabLinks.length > 0) {
+            for (var index = 0; index < tabLinks.length; index++) {
+                var tabLink = tabLinks[index];
+                tabLink.addEventListener('click', function (tabLink, event) {
+                    var tabContainers = document.querySelectorAll('.tab-container');
+                    if (tabContainers !== null) {
+                        for (var tabContainerIndex = 0; tabContainerIndex < tabContainers.length; tabContainerIndex++) {
+                            let tabContainer = tabContainers[tabContainerIndex];
+                            tabContainer.classList.add('is-hidden');
+                        }
+                    }
+
+                    var tabLinks = document.querySelectorAll('.tab-link');
+                    if (tabLinks !== null) {
+                        for (var tabLinkIndex = 0; tabLinkIndex < tabLinks.length; tabLinkIndex++) {
+                            let tabContainer = tabLinks[tabLinkIndex];
+                            tabContainer.parentElement.classList.remove('is-active');
+                        }
+                    }
+
+                    tabLink.parentElement.classList.add('is-active');
+
+                    var tabId        = tabLink.getAttribute('data-target');
+                    var tabContainer = document.querySelector('.' + tabId);
+                    if (tabContainer !== null) {
+                        tabContainer.classList.remove('is-hidden');
+                    }
+                }.bind(null, tabLink));
+            }
+        }
+    }(window, document));
+
+</script>
+
+<script>
+    (function () {
+        var burger = document.querySelector('.navbar-burger');
+        if (burger !== null) {
+            burger.addEventListener('click', function () {
+                var element = document.querySelector('.navbar-menu');
+                if (element !== null) {
+                    if (element.classList.contains('is-active')) {
+                        element.classList.remove('is-active');
+                    } else {
+                        element.classList.add('is-active');
+                    }
+                }
+            });
+        }
+
+    })();
+</script>
+
+</body>
+
+</html>

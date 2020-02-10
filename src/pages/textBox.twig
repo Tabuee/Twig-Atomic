@@ -1,0 +1,33 @@
+{% extends '../layout.twig' %}
+
+{% set componentName = 'button' %}
+
+{% block head_content %}
+    {% set active = 7 %}
+{% endblock %}
+
+{% block summary %}
+
+{% endblock %}
+
+{% block usage %}
+
+{% endblock %}
+
+{% block testRestults %}
+
+{% endblock %}
+
+
+{% block live_component %}
+<h1>form-text-button-input</h1>
+{% include '../atoms/textBox/textBox.twig', with {textBoxId: 'no-real-reference', sizeState: 'big', placeholderText: 'placeholderText'} %}
+
+{% endblock %}
+
+{% set x %}{% include '../atoms/textBox/textBox.twig', with {textBoxId: 'no-real-reference', sizeState: 'big', placeholderText: 'placeholderText'} %}{% endset %}
+
+{% block documentation %}
+    <h1>html</h1>
+    <pre><code class="html">{{ x | prettyHtml | escape('html') }}</code></pre>
+{% endblock %}

@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Atoms",
+        "src": "./atoms"
+    },
+    {
+        "name": "Molecules",
+        "src": "./molecules"
+    },
+    {
+        "name": "Organisms",
+        "src": "./organisms"
+    }
+]

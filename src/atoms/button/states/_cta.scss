@@ -1,0 +1,9 @@
+@import '../../styles/global/colors';
+@import '../../styles/global/mixins';
+
+%button-base {
+    &.button--cta {
+        @include background-with-hover(lighten($color-primary, 15%), lighten($color-primary, 35%))
+
+    }
+}

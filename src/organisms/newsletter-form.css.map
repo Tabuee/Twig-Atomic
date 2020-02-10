@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,gBAAiB;EACb,KAAK,EAAG,KAAK;EACb,MAAM,EAAE,eAAe;EACvB,MAAM,EAAE,MAAM;;AAGlB,qBAAsB;EAClB,MAAM,EAAE,MAAM;EACd,KAAK,EAAG,KAAK",
+"sources": ["newsletter-form.scss"],
+"names": [],
+"file": "newsletter-form.css"
+}

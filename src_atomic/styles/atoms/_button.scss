@@ -1,0 +1,75 @@
+%button {
+    box-sizing: border-box;
+    cursor:     pointer;
+    transition: background-color 200ms ease-in;
+}
+
+.button {
+    @extend %button;
+    background-color: $color-primary;
+    border:           1px solid $color-primary;
+    color:            $color-text-primary;
+    height:           50px;
+    padding:          15px;
+    width:            150px;
+
+    &:hover {
+        background-color: darken($color-primary, 15%);
+    }
+}
+// o/m abweichungen
+.form-text__button {
+    @extend %button;
+    background-color: $color-primary;
+    border:           1px solid $color-primary;
+    color:            $color-text-primary;
+    height:           50px;
+    margin:           5px;
+    padding:          15px;
+    width:            100%;
+}
+
+.menu__button {
+    @extend %button;
+    background-color: lighten($color-primary, 15%);
+    border:           0;
+    height:           25px;
+    padding:          5px;
+    width:            150px;
+
+    &:hover {
+        background-color: lighten($color-primary, 35%);
+    }
+}
+
+.sub-menu__button {
+    @extend %button;
+    background-color: $color-background-primary;
+    border:           0;
+    height:           25px;
+    padding:          2px;
+    width:            100px;
+
+    &:hover {
+        background-color: darken($color-primary, 35%);
+    }
+}
+// states
+.button--failure {
+    background-color: $color-failure;
+    border:           1px solid $color-failure;
+
+    &:hover {
+        background-color: darken($color-failure, 15%);
+    }
+}
+
+.button--success {
+    background-color: $color-success;
+    border:           1px solid $color-success;
+
+    &:hover {
+        background-color: darken($color-success, 15%);
+    }
+}
+

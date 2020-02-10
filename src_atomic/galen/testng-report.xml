@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results>
+    <suite name="Galen Suite">
+                <test name="homepage.gspec">
+            <class name="homepage.gspec">
+                <test-method status="FAIL" signature="homepage.gspec" name="homepage.gspec" duration-ms="4630" started-at="2018-07-03T20:45:03Z" finished-at="2018-07-03T20:45:07Z" description="">
+                </test-method>
+            </class>
+        </test>
+    </suite>
+</testng-results>

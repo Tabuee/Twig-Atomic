@@ -1,0 +1,90 @@
+$color-level-0: #ff929a;
+$color-level-1: #fff46e;
+$color-level-2: #8ce2ff;
+$color-level-3: #aceeb1;
+$color-default: #4a4a4a;
+$border-size: 1;
+
+$state-levels: (
+                   level-0: $color-level-0,
+                   level-1: $color-level-1,
+                   level-2: $color-level-2,
+                   level-3: $color-level-3,
+               );
+
+$sizes: (
+            small: (
+                width: 200,
+                height: 18,
+                padding: 2
+            ),
+            medium: (
+                width: 200,
+                height: 25,
+                padding: 5
+            ),
+            big: (
+                width: 200,
+                height: 50,
+                padding: 10
+            )
+        );
+
+.text-box {
+    box-sizing: border-box;
+    margin:     5px;
+    padding:    5px;
+    width:      200px;
+    border:     $border-size * 1px solid $color-default;
+
+    //.form-text-button-input & {
+    //    width: 100%;
+    //}
+}
+
+//.text-box--state-small {
+//    height:  18px;
+//    width:   200px;
+//    padding: 2px;
+//}
+//
+//.text-box--state-medium {
+//    height: 25px;
+//    width:  200px;
+//}
+//
+//.text-box--state-big {
+//    height:  50px;
+//    width:   200px;
+//    padding: 10px;
+//}
+
+@each $state-name, $state in $sizes {
+    .text-box--state-#{$state-name} {
+        @each $valueName, $value in $state {
+            #{$valueName}: $value * 1px;
+        }
+    }
+}
+
+@each $name, $value in $state-levels {
+    .text-box--state-#{$name} {
+        border: $border-size * 1px solid $value;
+    }
+}
+
+//.text-box--state-level-0 {
+//    border: $border-size * 1px solid darken($color-level-0, 25%);
+//}
+//
+//.text-box--state-level-1 {
+//    border: $border-size * 1px solid $color-level-1;
+//}
+//
+//.text-box--state-level-2 {
+//    border: $border-size * 1px solid $color-level-2;
+//}
+//
+//.text-box--state-level-3 {
+//    border: $border-size * 1px solid $color-level-3;
+//}

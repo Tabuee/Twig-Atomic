@@ -1,0 +1,72 @@
+// Version #1: BEM
+// menu button: class="button button--small button--cta"
+// sub menu button: class="button button--tiny button--alt-cta"
+// form text button: class="button button--flex"
+@import '../../global/colors';
+
+.button {
+    background-color: $color-primary;
+    border:           1px solid $color-primary;
+    box-sizing:       border-box;
+    color:            $color-text-primary;
+    cursor:           pointer;
+    height:           50px;
+    padding:          15px;
+    transition:       background-color 200ms ease-in;
+    width:            150px;
+
+    &:hover {
+        background-color: darken($color-primary, 15%);
+    }
+}
+
+.button--flex {
+    margin: 5px;
+    width:  100%;
+}
+
+.button--small {
+    height:  25px;
+    padding: 5px;
+}
+
+.button--tiny {
+    height:  25px;
+    padding: 2px;
+    width:   100px;
+}
+
+.button--cta {
+    background-color: lighten($color-primary, 15%);
+    border:           0;
+
+    &:hover {
+        background-color: lighten($color-primary, 35%);
+    }
+}
+
+.button--alt-cta {
+    border: 0;
+
+    &:hover {
+        background-color: darken($color-primary, 35%);
+    }
+}
+
+.button--failure {
+    background-color: $color-failure;
+    border:           1px solid $color-failure;
+
+    &:hover {
+        background-color: darken($color-failure, 15%);
+    }
+}
+
+.button--success {
+    background-color: $color-success;
+    border:           1px solid $color-success;
+
+    &:hover {
+        background-color: darken($color-success, 15%);
+    }
+}

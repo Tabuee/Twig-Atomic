@@ -1,0 +1,43 @@
+.button {
+  background-color: #27749b;
+  border: 1px solid #27749b;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  height: 50px;
+  padding: 15px;
+  transition: background-color 200ms ease-in;
+  width: 150px; }
+  .button:hover {
+    background-color: #18465e; }
+  .button.form-text__button {
+    margin: 5px;
+    width: 100%; }
+  .button.menu__button {
+    background-color: #409fcf;
+    border: 0;
+    height: 25px;
+    padding: 5px; }
+    .button.menu__button:hover {
+      background-color: #91c8e3; }
+  .button.sub-menu__button {
+    background-color: #fff;
+    border: 0;
+    color: black;
+    height: 25px;
+    padding: 2px;
+    width: 100px; }
+    .button.sub-menu__button:hover {
+      background-color: #03090c; }
+  .button.button--failure {
+    background-color: #e25c59;
+    border: 1px solid #e25c59; }
+    .button.button--failure:hover {
+      background-color: #cb2723; }
+  .button.button--success {
+    background-color: #61e26c;
+    border: 1px solid #61e26c; }
+    .button.button--success:hover {
+      background-color: #26d035; }
+
+/*# sourceMappingURL=button.css.map */

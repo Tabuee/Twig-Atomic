@@ -1,0 +1,97 @@
+@import "../../global/colors";
+
+%button {
+    box-sizing: border-box;
+    cursor:     pointer;
+    transition: background-color 200ms ease-in;
+}
+
+%success {
+    background-color: $color-success;
+    border:           1px solid $color-success;
+
+    &:hover {
+        background-color: darken($color-success, 15%);
+    }
+}
+
+%warning {
+    padding: 15px;
+
+}
+
+%failure {
+    background-color: $color-failure;
+    border:           1px solid $color-failure;
+
+    &:hover {
+        background-color: darken($color-failure, 15%);
+    }
+}
+
+$state-list: 'failure' 'success' 'warning';
+// independent organism and molecule dependent rules
+// states for all o/m dependent rules
+
+.button {
+    @extend %button;
+    background-color: $color-primary;
+    border:           1px solid $color-primary;
+    color:            $color-text-primary;
+    height:           50px;
+    padding:          15px;
+    width:            150px;
+
+    &:hover {
+        background-color: darken($color-primary, 15%);
+    }
+
+    .form-text-button-input & {
+        margin: 5px;
+        width:  100%;
+    }
+
+    @each $value in $state-list {
+        &.button--state-#{$value} {
+            @extend %#{$value};
+        }
+    }
+}
+
+.menu__button {
+    @extend %button;
+    background-color: lighten($color-primary, 15%);
+    border:           0;
+    height:           25px;
+    padding:          5px;
+    width:            150px;
+
+    &:hover {
+        background-color: lighten($color-primary, 35%);
+    }
+
+    @each $value in $state-list {
+        &.button--state-#{$value} {
+            @extend %#{$value};
+        }
+    }
+}
+
+.sub-menu__button {
+    @extend %button;
+    background-color: $color-background-primary;
+    border:           0;
+    height:           25px;
+    padding:          2px;
+    width:            100px;
+
+    &:hover {
+        background-color: darken($color-primary, 35%);
+    }
+
+    @each $value in $state-list {
+        &.button--state-#{$value} {
+            @extend %#{$value};
+        }
+    }
+}

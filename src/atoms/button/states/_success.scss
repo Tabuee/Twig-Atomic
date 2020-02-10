@@ -1,0 +1,13 @@
+@import '../../styles/global/colors';
+@import '../mixins/notification-state';
+
+%button-base {
+    &.button--success {
+        @include notification-state($color-success);
+
+        &.sub-menu__button {
+            @include background-with-hover($color-background-primary, lighten($color-success, 25%));
+            border: 1px solid $color-success;
+        }
+    }
+}

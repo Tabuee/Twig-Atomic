@@ -1,0 +1,13 @@
+@import '../../styles/global/colors';
+@import '../mixins/notification-state';
+
+%button-base {
+    &.button--warning {
+        @include notification-state($color-warning);
+
+        &.sub-menu__button {
+            @include background-with-hover($color-background-primary, lighten($color-warning, 25%));
+            border: 1px solid $color-warning;
+        }
+    }
+}

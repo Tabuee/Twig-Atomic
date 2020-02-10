@@ -1,0 +1,32 @@
+.tt-heading-small {
+  font-size: 12px;
+  font-weight: 600; }
+
+.tt-heading-normal {
+  font-size: 18px; }
+
+.tt-heading-big {
+  font-size: 26px; }
+
+.test {
+  margin: 10px 10px 10px 10px; }
+
+.spacing-small-visualized {
+  margin: 0 0 40px 0;
+  background-color: #00b89c;
+  width: 100%;
+  height: 10px; }
+
+.spacing-medium-visualized {
+  margin: 0 0 40px 0;
+  background-color: #209cee;
+  width: 100%;
+  height: 20px; }
+
+.spacing-big-visualized {
+  margin: 0 0 40px 0;
+  background-color: #20bc56;
+  width: 100%;
+  height: 40px; }
+
+/*# sourceMappingURL=spacings.css.map */

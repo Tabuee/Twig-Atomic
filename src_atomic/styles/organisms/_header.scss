@@ -1,0 +1,24 @@
+.header {
+    background-color: #0d2248;
+    height:           125px;
+    padding:          25px;
+    box-sizing:       border-box;
+    display:          flex;
+}
+
+.head-logo-wrap {
+    width: 50%;
+}
+
+.head-menu {
+    padding: 15px;
+}
+
+.head-logo {
+    float: right;
+}
+
+.image--head-logo {
+    height: 100%;
+    width:  auto;
+}

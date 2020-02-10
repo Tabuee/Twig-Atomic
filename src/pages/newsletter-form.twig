@@ -1,0 +1,50 @@
+{% extends '../layout.twig' %}
+
+{% set componentName = 'button' %}
+
+{% block head_content %}
+    <link type="text/css" href="../organisms/newsletter-form.css" rel="stylesheet" >
+    {% set active = 8 %}
+{% endblock %}
+
+{% block summary %}
+    <div class="box">
+        Test-Status: <span class="tag is-success">passing</span>
+        <br>References:<br>
+        Molecules:<br>
+        <span class="tag is-info">form-text-button-input</span>
+        <br>Atoms:<br>
+        <span class="tag is-primary">label</span>
+        <span class="tag is-primary">button</span>
+        <span class="tag is-primary">textBox</span>
+    </div>
+{% endblock %}
+
+{% block usage %}
+
+{% endblock %}
+
+{% block testRestults %}
+
+{% endblock %}
+
+
+{% block live_component %}
+    <h1>form-text-input</h1>
+    {% include '../organisms/newsletter-form.twig', with {buttonText: 'hit me', textBoxId: 'real-reference', labelText: 'some label'} %}
+{% endblock %}
+
+{% set x %}{% include '../organisms/newsletter-form.twig', with {buttonText: 'hit me', textBoxId: 'real-reference', labelText: 'some label'} %}{% endset %}
+
+{% set css %}{% include '../organisms/newsletter-form.css' %}{% endset %}
+
+{% set scss %}{% include '../organisms/newsletter-form.scss' %}{% endset %}
+
+{% block documentation %}
+    <h1>html</h1>
+    <pre><code class="html">{{ x | prettyHtml | escape('html') }}</code></pre>
+    <h1>scss</h1>
+    <pre><code class="scss">{{ scss | escape('html') | leadingWhitespaces }}</code></pre>
+    <h1>css</h1>
+    <pre><code class="css">{{ css | prettyCSS | escape('html') }}</code></pre>
+{% endblock %}

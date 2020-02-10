@@ -1,0 +1,85 @@
+@import "../../global/colors";
+
+%button {
+    box-sizing: border-box;
+    cursor:     pointer;
+    transition: background-color 200ms ease-in;
+}
+
+@mixin notification-state($color) {
+    background-color: $color;
+    border:           1px solid $color;
+
+    &:hover {
+        background-color: darken($color, 15%);
+    }
+}
+
+%success {
+    @include notification-state($color-success);
+}
+
+%warning {
+    @include notification-state($color-warning);
+}
+
+%failure {
+    @include notification-state($color-failure);
+}
+
+$state-list: 'failure' 'success' 'warning';
+
+.button {
+    @extend %button;
+    background-color: $color-primary;
+    border:           1px solid $color-primary;
+    color:            $color-text-primary;
+    height:           50px;
+    padding:          15px;
+    width:            150px;
+
+    &:hover {
+        background-color: darken($color-primary, 15%);
+    }
+
+    .form-text-button-input & {
+        margin: 5px;
+        width:  100%;
+    }
+}
+
+.menu__button {
+    @extend %button;
+    background-color: lighten($color-primary, 15%);
+    border:           0;
+    height:           25px;
+    padding:          5px;
+    width:            150px;
+
+    &:hover {
+        background-color: lighten($color-primary, 35%);
+    }
+}
+
+.sub-menu__button {
+    @extend %button;
+    background-color: $color-background-primary;
+    border:           0;
+    height:           25px;
+    padding:          2px;
+    width:            100px;
+
+    &:hover {
+        background-color: darken($color-primary, 35%);
+    }
+}
+
+@each $value in $state-list {
+    .button,
+    .menu__button,
+    .sub-menu__button {
+        &.button--state-#{$value} {
+            @extend %#{$value};
+        }
+    }
+}

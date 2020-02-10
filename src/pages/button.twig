@@ -1,0 +1,60 @@
+{% extends '../layout.twig' %}
+
+{% set componentName = 'button' %}
+
+{% block head_content %}
+    <link type="text/css" href="../atoms/button/button.css" rel="stylesheet" >
+    {% set active = 3 %}
+{% endblock %}
+
+{% block summary %}
+
+{% endblock %}
+
+{% block usage %}
+
+{% endblock %}
+
+{% block testRestults %}
+
+{% endblock %}
+
+
+{% block live_component %}
+<h1>Button</h1>
+
+{% include '../atoms/button/button.twig', with {buttonText: 'Press Me1'} %}
+    {% include '../atoms/button/button.twig', with {buttonText: 'Press Me-success', states: ['success', 'failure']} %}
+    {% include '../atoms/button/button.twig', with {buttonText: 'Press Me2', states: ['failure']} %}
+    {% include '../atoms/button/button.twig', with {buttonText: 'Press Me3', states: ['warning']} %}
+    {% include '../atoms/button/button.twig', with {buttonText: 'Press 4', states: ['cta']} %}
+    {% include '../atoms/button/button.twig', with {buttonText: 'Press Me5', states: ['cta', 'failure']} %}
+{% endblock %}
+
+{% set x %}{% include '../atoms/button/button.twig', with {buttonText: 'Press Me-success', states: ['success', 'failure']} %}{% endset %}
+
+{% set css %}{% include '../atoms/button/button.css' %}{% endset %}
+
+{% set scss %}// _button-base.scss
+{% include '../atoms/button/_button-base.scss' %}
+// button.scss
+{% include '../atoms/button/button.scss' %}
+// _notification-state.scss
+{% include '../atoms/button/mixins/_notification-state.scss' %}
+// _cta.scss
+{% include '../atoms/button/states/_cta.scss' %}
+// _failure.scss
+{% include '../atoms/button/states/_failure.scss' %}
+// _success.scss
+{% include '../atoms/button/states/_success.scss' %}
+// _warning.scss
+{% include '../atoms/button/states/_warning.scss' %}{% endset %}
+
+{% block documentation %}
+    <h1>html</h1>
+    <pre><code class="html">{{ x | prettyHtml | escape('html') }}</code></pre>
+    <h1>scss</h1>
+    <pre><code class="scss">{{ scss | escape('html') }}</code></pre>
+    <h1>css</h1>
+    <pre><code class="css">{{ css | prettyCSS | escape('html') }}</code></pre>
+{% endblock %}

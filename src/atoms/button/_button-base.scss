@@ -1,0 +1,20 @@
+@import '../styles/global/colors';
+
+@import 'states/cta';
+
+@import 'states/failure';
+@import 'states/success';
+@import 'states/warning';
+
+%button {
+    @extend %button-base;
+    @include background-with-hover($color-primary, darken($color-primary, 15%));
+    border:     1px solid $color-primary;
+    box-sizing: border-box;
+    color:      $color-text-primary;
+    cursor:     pointer;
+    height:     50px;
+    padding:    15px;
+    transition: background-color 200ms ease-in;
+    width:      150px;
+}

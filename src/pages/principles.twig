@@ -1,0 +1,35 @@
+{% extends '../layout.twig' %}
+
+{% set componentName = 'button' %}
+
+{% block head_content %}
+    {% set active = 10 %}
+{% endblock %}
+
+{% block summary %}
+    <div class="tile is-ancestor">
+        <div class="tile is-parent is-4">
+            <div class="tile notification is-child is-primary">
+                <p class="title">Vertical...</p>
+                <p class="subtitle">Top tile</p>
+            </div>
+        </div>
+        <div class="tile is-parent is-4">
+            <div class="tile is-info is-child notification">
+                <p class="title">Vertical...</p>
+                <p class="subtitle">Top tile</p>
+            </div>
+        </div>
+        <div class="tile is-parent is-4">
+            <div class="tile is-warning is-child notification">
+                <p class="title">Vertical...</p>
+                <p class="subtitle">Top tile</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block live_component %}
+    <h1>Principles</h1>
+{% endblock %}

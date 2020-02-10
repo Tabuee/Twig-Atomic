@@ -1,0 +1,33 @@
+{% extends '../layout.twig' %}
+
+{% set componentName = 'button' %}
+
+{% block head_content %}
+    {% set active = 6 %}
+{% endblock %}
+
+{% block summary %}
+
+{% endblock %}
+
+{% block usage %}
+
+{% endblock %}
+
+{% block testRestults %}
+
+{% endblock %}
+
+
+{% block live_component %}
+<h1>form-text-button-input</h1>
+{% include '../atoms/label/label.twig', with {labelReference: 'no-real-reference', labelText: 'some label'} %}
+
+{% endblock %}
+
+{% set x %}{% include '../atoms/label/label.twig', with {labelReference: 'no-real-reference', labelText: 'some label'} %}{% endset %}
+
+{% block documentation %}
+    <h1>html</h1>
+    <pre><code class="html">{{ x | prettyHtml | escape('html') }}</code></pre>
+{% endblock %}

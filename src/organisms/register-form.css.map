@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,cAAe;EACX,KAAK,EAAG,KAAK;EACb,MAAM,EAAE,eAAe;EACvB,MAAM,EAAE,MAAM;;AAGlB,mBAAoB;EAChB,MAAM,EAAE,MAAM;EACd,KAAK,EAAG,KAAK",
+"sources": ["register-form.scss"],
+"names": [],
+"file": "register-form.css"
+}

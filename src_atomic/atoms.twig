@@ -1,0 +1,137 @@
+{% extends './layout.twig' %}
+
+{% set json %}
+{% include "atoms/Input/special-button.json" %}
+{% endset %}
+
+{% set specialButtonSettings = json | jsonDecode %}
+
+{% block head %}
+<title>Docu - Atoms</title>
+{% endblock %}
+
+
+
+
+{% block content %}
+<div class="box-grid">
+    <div class="box box-theme" data-click="true">
+        <div class="head-theme">Atoms</div>
+        <div class="content-theme">
+            <div class="section">
+                <div class="head-theme">Action-Buttons:</div>
+                <div class="content-theme">
+                    {% include 'atoms/Input/button.twig', with {buttonText: 'Press Me'} %}
+                    {% include 'atoms/Input/button.twig', with {buttonText: 'Press Me', states: ['success', 'failure']} %}
+                    {% include 'atoms/Input/button.twig', with {buttonText: 'Press Me', states: ['failure']} %}
+                    {% include 'atoms/Input/button.twig', with {buttonText: 'Press Me', states: ['warning']} %}
+                    {% include 'atoms/Input/button.twig', with {buttonText: 'Press Me', states: ['cta']} %}
+                    {% include 'atoms/Input/button.twig', with {buttonText: 'Press Me', states: ['cta', 'failure']} %}
+                    <br>----<br>
+                    <button class="button">Press Me</button>
+                    <button class="button button--success">Press Me</button>
+                    <button class="button button--failure">Press Me</button>
+                </div>
+            </div>
+            <div class="section">
+                <div class="head-theme">Menu-Button:</div>
+                <div class="content-theme">
+                    <button class="button menu__button">Press Me</button>
+                    <button class="button menu__button button--success">Press Me</button>
+                    <button class="button menu__button button--failure">Press Me</button>
+                    <button class="button menu__button button--warning">Press Me</button>
+                    <button class="button menu__button button--cta">Press Me</button>
+                    <br>----<br>
+                    <button class="button button--small button--cta">Press Me</button>
+                    <button class="button button--small button--cta button--success">Press Me</button>
+                    <button class="button button--small button--cta button--failure">Press Me</button>
+                </div>
+            </div>
+            <div class="section">
+                <div class="head-theme">Sub-Menu-Button:</div>
+                <div class="content-theme">
+                    <button class="button sub-menu__button">Press Me</button>
+                    <button class="button sub-menu__button button--success">Press Me</button>
+                    <button class="button sub-menu__button button--failure">Press Me</button>
+                    <br>----<br>
+                    <button class="button button--tiny button--alt-cta">Press Me</button>
+                </div>
+            </div>
+            <div class="section">
+                <div class="head-theme">Special-Menu-Button:</div>
+                <div class="content-theme">
+                    {% include 'atoms/Input/button.twig', with specialButtonSettings | merge({buttonId: 'special-button-demo'}) %}
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="head-theme">text-box:</div>
+                <div class="content-theme">
+                    <input type="text" class="text-box" >
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="head-theme">text-box:</div>
+                <div class="content-theme">
+                    <input type="text" class="text-box text-box--state-small" >
+                    <input type="text" class="text-box text-box--state-small text-box--state-level-0" >
+                    <input type="text" class="text-box text-box--state-small text-box--state-level-1" >
+                    <input type="text" class="text-box text-box--state-small text-box--state-level-2" >
+                    <input type="text" class="text-box text-box--state-small text-box--state-level-3" >
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="head-theme">text-box:</div>
+                <div class="content-theme">
+                    <input type="text" class="text-box text-box--state-medium" >
+                    <input type="text" class="text-box text-box--state-medium text-box--state-level-0" >
+                    <input type="text" class="text-box text-box--state-medium text-box--state-level-1" >
+                    <input type="text" class="text-box text-box--state-medium text-box--state-level-2" >
+                    <input type="text" class="text-box text-box--state-medium text-box--state-level-3" >
+                </div>
+            </div>
+            <div class="section">
+                <div class="head-theme">text-box:</div>
+                <div class="content-theme">
+                    <input type="text" class="text-box text-box--state-big" >
+                    <input type="text" class="text-box text-box--state-big text-box--state-level-0" >
+                    <input type="text" class="text-box text-box--state-big text-box--state-level-1" >
+                    <input type="text" class="text-box text-box--state-big text-box--state-level-2" >
+                    <input type="text" class="text-box text-box--state-big text-box--state-level-3" >
+                </div>
+            </div>
+            <div class="section">
+                <div class="head-theme">label:</div>
+                <div class="content-theme">
+                    {% include 'atoms/Input/label.twig', with {labelReference: 'no-real-reference', labelText: 'some label'} %}
+                </div>
+            </div>
+            <div class="section">
+                <div class="head-theme">label:</div>
+                <div class="content-theme">
+                    {% include 'atoms/Input/select.twig' %}
+                </div>
+            </div>
+            <div class="section">
+                <div class="head-theme">icons:</div>
+                <div class="content-theme">
+                    {% for icon in icons %}
+                    {% include 'atoms/icon.twig', with {iconName: icon.name} %}
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="section">
+                <div class="head-theme">images:</div>
+                <div class="content-theme">
+                    {% for image in images %}
+                    {% include 'atoms/image.twig', with {imgSrc: image.path ~ image.fileName ~ '.' ~ image.type, imgClass: 'image--thumbnail'} %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
